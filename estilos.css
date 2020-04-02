@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: cornflowerblue;
+    box-shadow: 0 2px 8px 4px rgba(0,0,0,0.3);
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+
+main {
+    padding: 1rem;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+footer {
+    background-color: rgb(123, 162, 233);
+    padding: 1rem;
+    text-align: center;
+}
+
+link {
+    color: black ;
+    text-decoration: none;
+    
+
+}
+
+#lista {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+#lista tr:hover {background-color: #ddd;}
+
+#lista th, #lista td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+
+}
+
+#perfil {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+#perfil th, #perfil td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#perfil th{
+    background-color: #ddd;
+   
+}
+
+.card {
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.card .izq {
+    width: 50%;
+    height: 100%;
+    background-image: url("./lib/perfil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.card .der {
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .der div {
+    margin: 5px 0;
+}
+
+.pie {
+    /*display: flex;
+    width: 90%;
+    max-width: 700px;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 16px;*/
+    display: flex;
+    justify-content: center space-between;
+
+   
+    
+}
+
+
